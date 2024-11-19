@@ -55,6 +55,14 @@ header span {
     margin-top: 5%;
 }
 
+.todo div {
+    padding: 2% 0;
+}
+
+.todo h1 {
+    margin-bottom: 1%;
+}
+
 .todo h1::before {
     content: "\25BC";
 }
@@ -81,6 +89,7 @@ header span {
 
 .label {
     display: inline-block;
+    color: white;
     border-radius: 20px;
     padding: 1%;
 }
