@@ -20,8 +20,7 @@ header img {
 }
 
 header span {
-    font-size: 45px;       
-    
+    font-size: 45px;      
 }
 
 /* regole container */
@@ -30,12 +29,12 @@ header span {
     margin: 0 20%;
     background: white;
     margin-top: 30px;
-    padding: 1% 5%;
-    
+    padding: 1% 5%;    
 }
 
 /* regole main */
 
+/* regole button */
 #button-task {
     background-color: #47acec;
     color: white;
@@ -49,3 +48,64 @@ header span {
     border-radius: 5px;
     padding: 5px;    
 }
+
+/* regole todo */
+
+.todo {
+    margin-top: 5%;
+}
+
+.todo h1::before {
+    content: "\25BC";
+}
+
+.text-check::before {
+    content: "\2713";
+    color: #83b3a3;
+    padding: 5px 8px;
+    border-radius: 50%;
+    border: 2px solid #83b3a3;     
+}
+
+.text-uncheck::before {
+    content: "\2717";
+    color: #a77680;
+    padding: 5px 8px;
+    border-radius: 50%;
+    border: 2px solid #a77680;     
+}
+
+
+
+/* regole label */
+
+.label {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 1%;
+}
+
+#editorial {
+    background-color: #46a9e7;
+}
+
+#q1-goals {
+    background-color: #9e74eb ;
+}
+
+#recruiting {
+    background-color: #63c4aa;
+}
+
+#mobile {
+    background-color: #f09d37;
+}
+
+#website {
+    background-color: #d365a3;
+}
+
+#sales {
+    background-color: #afc81e;
+}
+
