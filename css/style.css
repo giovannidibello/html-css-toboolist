@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* header */
+
+header img {
+    line-height: 100%;
+    vertical-align: middle;
+    
+}
+
+header span {
+    font-size: 45px;       
+    
+}
