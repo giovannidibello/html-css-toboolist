@@ -11,16 +11,16 @@ body {
 /* header */
 
 header {
-    background: white;
+    background: white;    
 }
 
 header img {
-    line-height: 100%;
     vertical-align: middle;    
 }
 
 header span {
-    font-size: 45px;      
+    font-size: 45px;
+    vertical-align: middle;      
 }
 
 /* regole container */
