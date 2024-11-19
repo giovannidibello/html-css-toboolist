@@ -4,15 +4,48 @@
     box-sizing: border-box;
 }
 
+body {
+    background: #f6f8fa;
+}
+
 /* header */
+
+header {
+    background: white;
+}
 
 header img {
     line-height: 100%;
-    vertical-align: middle;
-    
+    vertical-align: middle;    
 }
 
 header span {
     font-size: 45px;       
     
+}
+
+/* regole container */
+
+.container {
+    margin: 0 20%;
+    background: white;
+    margin-top: 30px;
+    padding: 1% 5%;
+    
+}
+
+/* regole main */
+
+#button-task {
+    background-color: #47acec;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;    
+}
+
+#button-section {
+    background-color: #fffdfe;
+    color: grey;
+    border-radius: 5px;
+    padding: 5px;    
 }
